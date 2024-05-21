@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(205, 233, 224);
+    padding: 150px 250px 150px;
+
+}
+
+.loginForm {
+    width: 45%;
+    height: auto;
+    background-color: #ffffff;
+    margin-left: 350px;
+
+}
+
+h3 {
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.loginForm input {
+    width: 90%;
+    padding: 10px 20px;
+    margin: 8px 0;
+}
+
+.loginForm .inputBox {
+    width: 90%;
+    height: auto;
+    /* background-color: aliceblue;*/
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 3px 0px 0px 0px;
+}
+
+.inputBoxForgot {
+    width: 90%;
+    height: auto;
+    /*  background-color: rgb(79, 146, 204);*/
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 0px 10px 0px;
+}
+
+.inputBoxForgot input[type=checkbox] {
+    width: 5%;
+    background-color: #f0f0f0;
+    background-color: #EB7E39;
+    border: 1px solid #ccc;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.inputBoxForgot input[type=checkbox]:checked {
+    background-color: #EB7E39;
+}
+
+.inputBoxForgot .forgotPassword {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: right;
+    margin-left: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginBtn {
+    width: 83%;
+    padding: 6px 20px;
+    margin: 5px 0;
+    background-color: #EB7E39;
+    margin-left: 15px;
+}
+
+.loginBtn .subBtn {
+    text-align: center;
+    margin-left: 45%;
+    border: none;
+    background-color: #EB7E39;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+p {
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.smBtns {
+    width: 105%;
+    height: auto;
+    /* background-color: greenyellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px 70px 30px 20px;
+}
+
+.smBtns .faLogin {
+    width: 100%;
+    padding: 6px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #425894;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.smBtns .googleLogin {
+    width: 100%;
+    padding: 6px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #D95040;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
